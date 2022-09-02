@@ -5,6 +5,7 @@ export default () => {
     useEffect(() => {
         fetch('/api/socketio').finally(() => {
             const socket = io()
+            console.log(socket)
 
             socket.on('connect', () => {
                 console.log('connect')
@@ -27,11 +28,3 @@ export default () => {
 
     return <h1>Socket.io</h1>
 }
-
-// export default () => {
-//     useEffect(() => {
-//         io('http://localhost:3000', { path: '/api/socketio' });
-//     }, []);
-
-//     return <h1>Socket.io</h1>;
-// };

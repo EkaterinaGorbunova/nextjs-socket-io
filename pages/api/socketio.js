@@ -27,23 +27,3 @@ export const config = {
 }
 
 export default ioHandler
-
-// <---------------- ---------------->
-
-// const io = require('socket.io')({ path: '/api/socketio' });
-
-// io.onconnection = () => {
-//     console.log('onconnection');
-// }
-
-// io.on('connect', () => {
-//     console.log('connect');
-// })
-
-// io.on('connection', () => {
-//     console.log('connection');
-// })
-
-// export default (req, res) => {
-//     console.log('endpoint');
-// }
