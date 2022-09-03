@@ -36,7 +36,7 @@ const Navbar = ({ socket }) => {
 
   return (
     <div className="navbar">
-      <span className="logo">App</span>
+      <span className="logo">Notif App</span>
       <div className="icons">
         <div className="icon" onClick={() => setOpen(!open)}>
           <img src={Notification} className="iconImg" alt="" />

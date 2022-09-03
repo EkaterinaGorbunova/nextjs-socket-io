@@ -52,7 +52,7 @@ export default function Home() {
               <p>To test it out <br />
               Log in under the username <b>Monica</b> and <b>John</b> in different tabs </p>
               <div className="login">
-                <h2>App</h2>
+                <h2>Notif App</h2>
                 <input
                   type="text"
                   placeholder="username"
